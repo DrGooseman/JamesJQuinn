@@ -48,9 +48,16 @@ function SideBar() {
       <h4></h4>
 
       <h4></h4>
-      <h4>Want to see this smiling face working at your company?</h4>
-      <h4>Want to get together and program?</h4>
-      <h4>Want to just meet for a pint?</h4>
+      <h4>
+        Want to see this smiling face working at your company?
+        <i class="fas fa-smile"></i>
+      </h4>
+      <h4>
+        Want to get together and program?<i class="fas fa-code"></i>
+      </h4>
+      <h4>
+        Want to just meet for a pint?<i class="fas fa-beer"></i>
+      </h4>
       <h4>I'm waiting to hear from you!</h4>
     </header>
   );
