@@ -31,6 +31,7 @@ function Home() {
         <h1>My Journey</h1>
         <div className="my-skills-row">
           <img
+            className="my-skills-img-left"
             src="https://image.flaticon.com/icons/svg/1197/1197511.svg"
             alt="programming-img"
           />
@@ -59,13 +60,14 @@ function Home() {
             </p>
           </div>
           <img
+            className="my-skills-img-right"
             src="https://image.flaticon.com/icons/svg/1969/1969986.svg"
             alt="virtual-reality-img"
           />
         </div>
         <div className="my-skills-row">
-          {" "}
           <img
+            className="my-skills-img-left"
             src="https://image.flaticon.com/icons/svg/2177/2177275.svg"
             alt="virtual-reality-img"
           />
@@ -97,6 +99,7 @@ function Home() {
             </p>
           </div>{" "}
           <img
+            className="my-skills-img-right"
             src="https://image.flaticon.com/icons/svg/524/524541.svg"
             alt="programming-img"
           />
@@ -128,7 +131,7 @@ function Home() {
       <div className="my-skills">
         <h1>A Glimpse into my life</h1>
         <br></br>
-        <Carousel interval="100000">
+        <Carousel interval="10000000">
           <Carousel.Item>
             <img
               className="d-block w-100"

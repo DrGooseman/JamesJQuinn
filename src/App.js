@@ -9,6 +9,8 @@ import {
 import "./App.css";
 import Home from "./pages/Home";
 import SideBar from "./components/SideBar";
+import Games from "./pages/Games";
+import WebApps from "./pages/WebApps";
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Home />
+          </Route>
+          <Route path="/games" exact>
+            <Games />
+          </Route>
+          <Route path="/webapps" exact>
+            <WebApps />
           </Route>
           <Redirect to="/" />
         </Switch>

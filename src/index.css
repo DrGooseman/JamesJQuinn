@@ -23,11 +23,23 @@ code {
   display: flex;
   margin: auto;
   max-width: 1300px;
+  width: 100vw;
   justify-content: center;
 }
 
+.App-header-fixed-parent {
+  /* width: 24rem; */
+  height: 100vh;
+  background-color: black;
+  flex-basis: 292.38px;
+  flex-shrink: 0;
+}
+
 .App-header {
-  width: 24rem;
+  width: 292.38px;
+  position: fixed;
+  /* top: 0; */
+  /* width: inherit;
   /* 706c61 */
   /* background-color: #282c34; */
   background-color: #333333;
@@ -77,14 +89,17 @@ i {
 }
 
 .main-body {
-  width: 100%;
+  /* width: 100%; */
   background-color: #ffffff;
+  flex-grow: 1;
+  min-width: 0;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   /* background-color: rgb(202, 242, 255); */
   background-color: #706c61;
   color: white;
@@ -98,6 +113,8 @@ i {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   /* background-color: rgb(202, 242, 255); */
 }
 .about-me-who-am-i-div {
@@ -132,13 +149,22 @@ i {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-flow: wrap;
 
   margin: 2rem 0;
+  justify-content: center;
 }
 .my-skills-row img {
   width: 10rem;
-  margin: 0 3rem;
 }
+
+.my-skills-img-left {
+  margin: 0 3rem 0 0;
+}
+.my-skills-img-right {
+  margin: 0 0 0 3rem;
+}
+
 .my-skills-row h3 {
   color: #333333;
 }
@@ -168,7 +194,8 @@ i {
   margin: 1.3em;
 }
 
-.carousel-caption h3 p {
+.carousel-caption h3,
+.carousel-caption p {
   background: rgba(0, 0, 0, 0.4);
   margin: auto;
 }
@@ -191,6 +218,42 @@ i {
 .bg-dark {
   background-color: #333333 !important;
 }
+.jumbotron {
+}
+.jumbo1 {
+  background-image: url("/images/games/bd2.jpg") !important;
+  background-size: cover !important;
+  color: white;
+}
+.jumbo2 {
+  background-image: url("/images/games/bdr.png") !important;
+  background-size: cover !important;
+  color: white;
+}
+.jumbo2 {
+  background-image: url("/images/games/bdr.png") !important;
+  background-size: cover !important;
+  color: white;
+}
+
+.jumbotron span {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.game-info {
+  text-align: left;
+  margin: 0 2rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+.game-info .card {
+  width: 52rem !important;
+  margin: 0 2rem 0 0;
+}
+
+/* .game-info p {
+  margin-left: 2rem;
+} */
 
 @keyframes App-logo-spin {
   from {
