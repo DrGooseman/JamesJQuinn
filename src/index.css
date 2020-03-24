@@ -94,6 +94,11 @@ i {
   flex-grow: 1;
   min-width: 0;
 }
+.main-body h1 {
+  /* width: 100%; */
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
 
 .about-me {
   display: flex;
@@ -219,6 +224,7 @@ i {
   background-color: #333333 !important;
 }
 .jumbotron {
+  height: 300px;
 }
 .jumbo1 {
   background-image: url("/images/games/bd2.jpg") !important;
@@ -231,6 +237,11 @@ i {
   color: white;
 }
 .jumbo2 {
+  background-image: url("/images/games/in4.png") !important;
+  background-size: cover !important;
+  color: white;
+}
+.jumbo3 {
   background-image: url("/images/games/bdr.png") !important;
   background-size: cover !important;
   color: white;
@@ -245,10 +256,19 @@ i {
   margin: 0 2rem 2rem;
   display: flex;
   justify-content: center;
+  flex-flow: wrap;
 }
 .game-info .card {
-  width: 52rem !important;
+  flex-basis: 19rem;
+  flex-shrink: 0;
   margin: 0 2rem 0 0;
+}
+
+.game-info-text {
+  flex-grow: 1; /* it can grow */
+  flex-shrink: 1; /* it can shrink */
+  flex-basis: 340px; /* arbitrary depending on design */
+  min-width: 340px; /* equal to flex-basis */
 }
 
 /* .game-info p {
