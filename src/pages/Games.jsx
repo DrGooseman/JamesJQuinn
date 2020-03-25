@@ -2,12 +2,13 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
-import { NavLink } from "react-router-dom";
 
 function Games() {
   return (
     <div className="main-body">
-      <h1>My Games</h1>
+      <div className="title">
+        <h1>My Games</h1>
+      </div>
       <Jumbotron className="jumbo1">
         <h1>
           <span>Battle Dome</span>

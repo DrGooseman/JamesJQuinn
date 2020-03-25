@@ -5,6 +5,9 @@ import Image from "react-bootstrap/Image";
 function Home() {
   return (
     <div className="main-body">
+      <div className="title">
+        <h1>About Me</h1>
+      </div>
       <div className="about-me">
         <h2>Hello!</h2>
         <h1>I'm James</h1>
@@ -27,8 +30,11 @@ function Home() {
           <img src="/images/profpic2.jpg" alt="profpic2"></img>
         </div>
       </div>
-      <div className="my-skills">
+      <div className="title">
         <h1>My Journey</h1>
+      </div>
+      <div className="my-skills">
+        {/* <h1>My Journey</h1> */}
         <div className="my-skills-row">
           <img
             className="my-skills-img-left"
@@ -104,9 +110,11 @@ function Home() {
             alt="programming-img"
           />
         </div>
+      </div>{" "}
+      <div className="title">
+        <h1>My Interests</h1>
       </div>
       <div className="my-interests">
-        <h1>My Interests</h1>
         <div className="my-interests-lists ">
           <ul>
             <li>Programming (obviously)</li>
@@ -128,9 +136,10 @@ function Home() {
           </ul>
         </div>
       </div>
-      <div className="my-skills">
+      <div className="title">
         <h1>A Glimpse into my life</h1>
-        <br></br>
+      </div>
+      <div className="my-skills">
         <Carousel interval="10000000">
           <Carousel.Item>
             <img
@@ -209,7 +218,7 @@ function Home() {
                 that would flash its eyes when someone would walk in front of
                 it. I wanted the pumpkin to also turn towards the victim, but
                 the small motor I had couldn't support the weight of the
-                pumpkin. Maybe next time!
+                pumpkin. I'll buy a bigger motor next time!
               </p>
             </Carousel.Caption>
           </Carousel.Item>

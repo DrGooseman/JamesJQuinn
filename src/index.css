@@ -144,7 +144,7 @@ i {
   /* background-color: rgb(202, 242, 255); */
   background-color: #ffffff;
   /* color: white; */
-  padding: 2rem 2rem 2rem;
+  padding: 1rem 2rem 2rem;
   /* -webkit-box-shadow: inset 0px 0px 0px 10px rgb(255, 255, 255);
   -moz-box-shadow: inset 0px 0px 0px 10px rgb(255, 255, 255);
   box-shadow: inset 0px 0px 0px 10px rgb(255, 255, 255);
@@ -225,26 +225,24 @@ i {
 }
 .jumbotron {
   height: 300px;
+  background-size: cover !important;
+  color: white;
 }
 .jumbo1 {
   background-image: url("/images/games/bd2.jpg") !important;
-  background-size: cover !important;
-  color: white;
 }
 .jumbo2 {
   background-image: url("/images/games/bdr.png") !important;
-  background-size: cover !important;
-  color: white;
 }
 .jumbo2 {
   background-image: url("/images/games/in4.png") !important;
-  background-size: cover !important;
-  color: white;
 }
 .jumbo3 {
   background-image: url("/images/games/bdr.png") !important;
-  background-size: cover !important;
-  color: white;
+}
+
+.jumbowa1 {
+  background-image: url("/images/webapps/tw.png") !important;
 }
 
 .jumbotron span {
@@ -269,6 +267,15 @@ i {
   flex-shrink: 1; /* it can shrink */
   flex-basis: 340px; /* arbitrary depending on design */
   min-width: 340px; /* equal to flex-basis */
+}
+
+.title {
+  background-color: #333333;
+  padding: 8px 0 18px;
+  color: white;
+}
+.title h1 {
+  margin: 0;
 }
 
 /* .game-info p {

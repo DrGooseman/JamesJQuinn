@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 function SideBar() {
   return (
     <div className="App-header-fixed-parent">
-      {" "}
       <header className="App-header">
         <img src={"/images/profpic.jpg"} alt="profile pic" />
         <h3>James Quinn</h3>
