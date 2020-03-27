@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 import SideBar from "./components/SideBar";
 import Games from "./pages/Games";
 import WebApps from "./pages/WebApps";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/webapps" exact>
             <WebApps />
+          </Route>
+          <Route path="/resume" exact>
+            <Resume />
           </Route>
           <Redirect to="/" />
         </Switch>

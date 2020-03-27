@@ -22,7 +22,7 @@ function SideBar() {
 
         <Navbar bg="dark" variant="dark">
           <Nav className="mr-auto flex-column">
-            <Nav.Link as={NavLink} to={"/"}>
+            <Nav.Link as={NavLink} exact to={"/"}>
               About Me
             </Nav.Link>
             <Nav.Link as={NavLink} to={"/webapps"}>
@@ -31,8 +31,8 @@ function SideBar() {
             <Nav.Link as={NavLink} to={"/games"}>
               Games
             </Nav.Link>
-            <Nav.Link as={NavLink} to={"/games"}>
-              Work Experience
+            <Nav.Link as={NavLink} to={"/resume"}>
+              Resume
             </Nav.Link>
           </Nav>
         </Navbar>

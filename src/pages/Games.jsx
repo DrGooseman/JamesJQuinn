@@ -138,12 +138,56 @@ function Games() {
             Dome Redux was my response.
           </p>
           <p>
-            Rather than focus on a quick release, I spend much more time
+            Rather than focus on a quick release, I spent much more time
             deliberately crafting a higher quality and more focused experience.
             No short cuts, no cutting corners. All graphical assets, effects,
             and levels had to have a cohesive aesthetic. Because of this, I had
             to create and edit assets myself at times in order to have
             everything that I needed.
+          </p>
+        </div>
+      </div>
+      <Jumbotron className="jumbo4">
+        <h1>
+          <span>PokerTris</span>
+        </h1>
+        <p>
+          <span>
+            Playing cards are falling from the heavens, and only you can stop
+            them! Land them so that they make poker hands to clear the cards and
+            earn points. How many points can you earn before you drown in the
+            poker card horror? What a cruel deity...
+          </span>
+        </p>
+      </Jumbotron>
+      <div className="game-info">
+        <Card>
+          <Card.Img variant="top" src="/images/games/poker2.png" />
+          <Card.Body>
+            <Card.Title>Notable Info</Card.Title>
+            <Card.Text>
+              <ul>
+                <li>My first Android app.</li>
+                <li>Made with Java rather than C#.</li>
+                <li>My introduction to GIMP.</li>
+              </ul>
+            </Card.Text>
+            <Button variant="primary">Steam Page</Button>
+          </Card.Body>
+        </Card>
+        <div className="game-info-text">
+          <p>
+            PokerTris was my first Android app. I started working on PokerTris
+            shortly after I learning Java in my first year of University (about
+            10 or so years ago). In the process, I discovered GIMP and used it
+            to create the graphics for the game. Unfortunately, as it was my
+            first time working with graphical asset creation, they are a bit
+            rough around the edges.
+          </p>
+          <p>
+            I eventually took a break from development to pursue more
+            interesting projects. I returned to PokerTris years later to finish
+            and publish it on Google Play.
           </p>
         </div>
       </div>
