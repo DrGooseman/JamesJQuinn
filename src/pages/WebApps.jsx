@@ -111,18 +111,16 @@ function WebApps() {
         </Card>
         <div className="game-info-text">
           <p>
-            My first real PC game. I started working on Battle Dome very shortly
-            after the first VR headsets were released. Developed very quickly in
-            order to capitalize on the virtual reality market's need for a PvP
-            shooter, I released Battle Dome about a month and a half later.
+            I created this app alongside a MERN stack tutorial. Most of the
+            functionality and design was created alongside the tutorial, but I
+            decided to make a few changes and add some extra features.
           </p>
           <p>
-            Battle Dome was an instant success. Afterwards, I decided to leave
-            my IT job at Northstar Travel Group and focus on developing Battle
-            Dome. I spent the next year improving the game and adding new
-            features and game modes. My focus was to push the boundaries of VR
-            and create new features that were not yet available in other VR
-            games.
+            For example, I thought it would be cool to have a map page where you
+            can see all of you and your friends' locations on a map of the
+            world. You can click each point and see more info about the spot.
+            Also, I added the ability to change the picture on the "edit places"
+            page.
           </p>
         </div>
       </div>

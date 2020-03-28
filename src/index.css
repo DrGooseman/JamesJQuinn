@@ -55,7 +55,7 @@ code {
 .App-header img {
   width: 70%;
   border-radius: 100%;
-  margin: 1.8rem auto 1.4rem;
+  margin: 1.5rem auto 1.1rem;
   /* height: 50px; */
 }
 
@@ -352,12 +352,88 @@ i {
 /* .game-info p {
   margin-left: 2rem;
 } */
+.side-link {
+  margin: 0;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.fab {
+  margin: 0;
+}
+
+.side-link:link {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+.side-link:visited {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+.side-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.App-header-mobile {
+  display: none;
+}
+.App-header-desktop {
+  display: block;
+}
+
+.App-header-mobile-button {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  font-size: 1.8rem;
+  background-color: #333333;
+  border-radius: 10px;
+  color: white;
+  padding: 0;
+}
+.App-header-mobile-button.notVis {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  /* .App-header-fixed-parent {
+    display: none;
+  } */
+
+  .App-header-desktop {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .App-header-mobile {
+    display: block;
+    position: fixed;
+    left: 0;
+    z-index: 99;
+  }
+  .App-header-mobile-body {
+    left: -300px;
+    transform: translateX(-300px);
+    transition: transform 400ms ease-in;
+    top: 0;
+    width: 292.38px;
+    min-height: 100vh;
+  }
+  .App-header {
+    /* display: none; */
+  }
+  .App {
+    /* display: absolute; */
+  }
+  /* .sidebar {
+    left: -280px;
+    transform: translateX(-280px);
+    transition: transform 400ms ease-in;
+  } */
+  .App-header-mobile-body.slideIn {
+    transform: translateX(0);
+  }
+  .App-header-mobile-body.slideOut {
+    transform: translateX(-300px);
   }
 }

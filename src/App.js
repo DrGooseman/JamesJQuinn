@@ -8,16 +8,18 @@ import {
 
 import "./App.css";
 import Home from "./pages/Home";
-import SideBar from "./components/SideBar";
 import Games from "./pages/Games";
 import WebApps from "./pages/WebApps";
 import Resume from "./pages/Resume";
+import SideBarContainer from "./components/SideBarContainer";
+import SideBar from "./components/SideBar";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <SideBar />
+        <SideBarContainer />
+        {/* <SideBar /> */}
         <Switch>
           <Route path="/" exact>
             <Home />

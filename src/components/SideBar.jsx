@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Button from "react-bootstrap/Button";
+import Accordion from "react-bootstrap/Accordion";
 import { NavLink } from "react-router-dom";
 
 function SideBar() {
@@ -10,7 +12,7 @@ function SideBar() {
         <img src={"/images/profpic.jpg"} alt="profile pic" />
         <h3>James Quinn</h3>
         <p>
-          <i class="far fa-envelope"></i> JamesJQuinn12@gmail.com
+          <i className="far fa-envelope"></i> JamesJQuinn12@gmail.com
         </p>
 
         <h4>American programmer living in Moscow.</h4>
@@ -41,23 +43,52 @@ function SideBar() {
         <h4></h4>
         {/* <NavLink to={`/`}>Dashboard</NavLink>
 <NavLink to={`/poop`}>Dashboard</NavLink> */}
-        <i className="fab fa-github"></i>
-        <i className="fab fa-linkedin"></i>
-        <i className="fab fa-xing-square"></i>
-        <i class="fab fa-hackerrank"></i>
+        <a
+          href="https://github.com/DrGooseman"
+          className="side-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jamesjquinn/"
+          className="side-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://www.xing.com/profile/James_Quinn11/cv"
+          className="side-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-xing-square"></i>
+        </a>
+        <a
+          href="https://www.hackerrank.com/jamesjquinn12"
+          className="side-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-hackerrank"></i>
+        </a>
+
         {/* <img className="icon" src="/images/hh.ico" alt="hh" /> */}
         <h4></h4>
 
         <h4></h4>
         <h4>
           Want to see this smiling face working at your company?
-          <i class="fas fa-smile"></i>
+          <i className="fas fa-smile"></i>
         </h4>
         <h4>
-          Want to get together and program?<i class="fas fa-code"></i>
+          Want to get together and program?<i className="fas fa-code"></i>
         </h4>
         <h4>
-          Want to just meet for a pint?<i class="fas fa-beer"></i>
+          Want to just meet for a pint?<i className="fas fa-beer"></i>
         </h4>
         <h4>I'm waiting to hear from you!</h4>
       </header>
