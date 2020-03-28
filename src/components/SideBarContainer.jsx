@@ -19,16 +19,23 @@ function SideBarContainer() {
             </Accordion.Collapse>
           </div>
         </Accordion> */}
+
         <button
           className={
             isVisible
               ? "App-header-mobile-button notVis"
               : "App-header-mobile-button"
           }
-          onClick={() => setIsVisible(!isVisible)}
+          onClick={() => setIsVisible(true)}
         >
           <i class="fa fa-bars"></i>
         </button>
+        {isVisible && (
+          <div
+            onClick={() => setIsVisible(false)}
+            className="App-header-mobile-background"
+          ></div>
+        )}
         <div
           className={
             isVisible

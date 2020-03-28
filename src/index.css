@@ -31,8 +31,6 @@ code {
   /* width: 24rem; */
   height: 100vh;
   background-color: black;
-  flex-basis: 292.38px;
-  flex-shrink: 0;
 }
 
 .App-header {
@@ -378,6 +376,8 @@ i {
 }
 .App-header-desktop {
   display: block;
+  flex-basis: 292.38px;
+  flex-shrink: 0;
 }
 
 .App-header-mobile-button {
@@ -395,6 +395,15 @@ i {
 }
 .App-header-mobile-button.notVis {
   display: none;
+}
+
+.App-header-mobile-background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000a2;
 }
 
 @media (max-width: 700px) {
