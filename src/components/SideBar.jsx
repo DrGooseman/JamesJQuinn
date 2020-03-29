@@ -18,9 +18,8 @@ function SideBar() {
         <h4>American programmer living in Moscow.</h4>
         <h4>Aspiring full-stack developer.</h4>
         <h4>Experienced in game dev / virtual reality.</h4>
-        <h4></h4>
-
-        <h4></h4>
+        <h7></h7>
+        <h7></h7>
 
         <Navbar bg="dark" variant="dark">
           <Nav className="mr-auto flex-column">
@@ -38,9 +37,8 @@ function SideBar() {
             </Nav.Link>
           </Nav>
         </Navbar>
-        <h4></h4>
-
-        <h4></h4>
+        <h7></h7>
+        <h7></h7>
         {/* <NavLink to={`/`}>Dashboard</NavLink>
 <NavLink to={`/poop`}>Dashboard</NavLink> */}
         <a
@@ -77,9 +75,8 @@ function SideBar() {
         </a>
 
         {/* <img className="icon" src="/images/hh.ico" alt="hh" /> */}
-        <h4></h4>
-
-        <h4></h4>
+        <h6></h6>
+        <h6></h6>
         <h4>
           Want to see this smiling face working at your company?
           <i className="fas fa-smile"></i>

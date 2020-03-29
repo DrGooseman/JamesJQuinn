@@ -173,7 +173,9 @@ i {
 }
 
 .my-skills-row-text {
-  width: 30rem;
+  max-width: 30rem;
+  min-width: 200px;
+  flex: 1;
 }
 
 .my-interests {
@@ -406,11 +408,17 @@ i {
   background-color: #000000a2;
 }
 
-@media (max-width: 700px) {
-  /* .App-header-fixed-parent {
-    display: none;
-  } */
+h7 {
+  margin-bottom: 0.5rem;
+}
 
+@media (max-height: 925px) {
+  h7 {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 700px) {
   .App-header-desktop {
     display: none;
   }
@@ -428,17 +436,7 @@ i {
     width: 292.38px;
     min-height: 100vh;
   }
-  .App-header {
-    /* display: none; */
-  }
-  .App {
-    /* display: absolute; */
-  }
-  /* .sidebar {
-    left: -280px;
-    transform: translateX(-280px);
-    transition: transform 400ms ease-in;
-  } */
+
   .App-header-mobile-body.slideIn {
     transform: translateX(0);
   }

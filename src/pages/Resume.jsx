@@ -19,8 +19,7 @@ function Resume() {
           <i class="fas fa-phone-square-alt"></i> +7 985 131 5190
         </h3>
         <h3>
-          <i class="fab fa-whatsapp"></i>
-          +1 267 614 0533
+          <i class="fab fa-whatsapp"></i> +1 267 614 0533
         </h3>
       </div>
       <div className="resume-title">
