@@ -270,6 +270,10 @@ i {
   margin: 0 2rem 0 0;
 }
 
+.card button {
+  margin: 0 0.8rem 0 0;
+}
+
 .game-info-text {
   flex-grow: 1; /* it can grow */
   flex-shrink: 1; /* it can shrink */

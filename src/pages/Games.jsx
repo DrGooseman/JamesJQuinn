@@ -32,7 +32,14 @@ function Games() {
                 <li>My first Unity & multiplayer game.</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Steam Page</Button>
+            <a
+              href="https://store.steampowered.com/app/484870/Battle_Dome/"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Steam Page</Button>
+            </a>
           </Card.Body>
         </Card>
         <div className="game-info-text">
@@ -76,7 +83,14 @@ function Games() {
                 <li>4 player Co-op gameplay.</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Steam Page</Button>
+            <a
+              href="https://store.steampowered.com/app/767970/Inhumanus/"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Steam Page</Button>
+            </a>
           </Card.Body>
         </Card>
         <div className="game-info-text">
@@ -129,7 +143,14 @@ function Games() {
                 </li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Steam Page</Button>
+            <a
+              href="https://store.steampowered.com/app/1133970/Battle_Dome_Redux/"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Steam Page</Button>
+            </a>
           </Card.Body>
         </Card>
         <div className="game-info-text">
@@ -144,8 +165,9 @@ function Games() {
             No short cuts, no cutting corners. All graphical assets, effects,
             and levels had to have a cohesive aesthetic. Because of this, I had
             to create and edit assets myself often in order to have everything
-            that I needed. A lot of attention was spent adding good looking and
-            satisfying visual and audio effects to all player actions.
+            that I needed (even including the song in the trailer). A lot of
+            attention was spent adding good looking and satisfying visual and
+            audio effects to all player actions.
           </p>
         </div>
       </div>
@@ -174,7 +196,14 @@ function Games() {
                 <li>My introduction to GIMP.</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Steam Page</Button>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.quinnteq.pokertetris&hl=en"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Google Play page</Button>
+            </a>
           </Card.Body>
         </Card>
         <div className="game-info-text">

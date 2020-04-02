@@ -32,7 +32,22 @@ function WebApps() {
                 <li>Hosted on Firebase + Heroku</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Steam Page</Button>
+            <a
+              href="https://topwordsapp.com/"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Site</Button>
+            </a>
+            <a
+              href="https://github.com/DrGooseman/MERN-Words-Frontend"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">GitHub</Button>
+            </a>
           </Card.Body>
         </Card>
         <div className="game-info-text">
@@ -70,7 +85,22 @@ function WebApps() {
                 <li>Images hosted on AWS S3</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Steam Page</Button>
+            <a
+              href="https://chat-bbs.firebaseapp.com/"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Site</Button>
+            </a>
+            <a
+              href="https://github.com/DrGooseman/MERN-Chat-Frontend"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">GitHub</Button>
+            </a>
           </Card.Body>
         </Card>
         <div className="game-info-text">
@@ -111,7 +141,22 @@ function WebApps() {
                 <li>Images hosted on AWS S3</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Steam Page</Button>
+            <a
+              href="https://places-bbs.firebaseapp.com/"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Site</Button>
+            </a>
+            <a
+              href="https://github.com/DrGooseman/MERN-Places"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">GitHub</Button>
+            </a>
           </Card.Body>
         </Card>
         <div className="game-info-text">
