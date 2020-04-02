@@ -467,6 +467,23 @@ h7 {
     /* height: 50px; */
   }
 }
+@media (max-height: 639px) {
+  .App-header img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 0.6rem auto 0rem;
+    /* height: 50px; */
+  }
+}
+
+@media (max-width: 471px) {
+  .my-skills-img-left {
+    margin: 0 0 0 0;
+  }
+  .my-skills-img-right {
+    margin: 0 0 0 0;
+  }
+}
 
 @media (max-width: 700px) {
   .about-me-who-am-i-div {
