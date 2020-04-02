@@ -29,6 +29,7 @@ function WebApps() {
               <ul>
                 <li>MERN stack.</li>
                 <li>Styled with bootstrap.</li>
+                <li>Hosted on Firebase + Heroku</li>
               </ul>
             </Card.Text>
             <Button variant="primary">Steam Page</Button>
@@ -42,9 +43,9 @@ function WebApps() {
           <p>
             Using TopWords, you can select a few different word categories to
             study from. You level up each word after correctly guessing it
-            during each round. TopWords uses randomly selected sentences from a
-            large sentence list. Currently, only German and Russian are
-            available.
+            during each round. You can also flag difficult words for review.
+            TopWords uses randomly selected sentences from a large sentence
+            list. Currently, only German and Russian are available.
           </p>
         </div>
       </div>
@@ -65,6 +66,8 @@ function WebApps() {
               <ul>
                 <li>MERN stack.</li>
                 <li>Socket.io</li>
+                <li>Hosted on Firebase + Heroku</li>
+                <li>Images hosted on AWS S3</li>
               </ul>
             </Card.Text>
             <Button variant="primary">Steam Page</Button>
@@ -73,10 +76,10 @@ function WebApps() {
         <div className="game-info-text">
           <p>
             When I found out about socket.io, I decided that I needed to make a
-            chat out to test it out. The CSS layout was created while following
+            chat app to test it out. The CSS layout was created while following
             a youtube tutorial (which introduced me to CSS grids). I decided to
-            focus more on the functionality than worrying about designing the
-            layout for this app since the reason for this app was to learn
+            focus more on the functionality rather than worrying about designing
+            the layout for this app since the reason for this app was to learn
             socket.io.
           </p>
           <p>
@@ -104,6 +107,8 @@ function WebApps() {
               <ul>
                 <li>MERN stack.</li>
                 <li>Google maps API.</li>
+                <li>Hosted on Firebase + Heroku</li>
+                <li>Images hosted on AWS S3</li>
               </ul>
             </Card.Text>
             <Button variant="primary">Steam Page</Button>
@@ -117,7 +122,7 @@ function WebApps() {
           </p>
           <p>
             For example, I thought it would be cool to have a map page where you
-            can see all of you and your friends' locations on a map of the
+            can see all of your and your friends' locations on a map of the
             world. You can click each point and see more info about the spot.
             Also, I added the ability to change the picture on the "edit places"
             page.

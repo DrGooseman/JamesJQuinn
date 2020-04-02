@@ -22,9 +22,10 @@ function Home() {
             <br></br>
             <h2>My goal</h2>
             <p>
-              To futher develop myself in every way possible, and to find an
-              amazing company/team to share this journey with. A company I would
-              be proud to work with and to call my family.
+              To make a difference in the world, to further develop myself in
+              every way possible, and to find an amazing company/team to share
+              this journey with. A company I would be proud to work with and to
+              call my family.
             </p>
           </div>
           <img src="/images/profpic2.jpg" alt="profpic2"></img>
@@ -46,8 +47,8 @@ function Home() {
             <p>
               I started learning to program when I was 15 years old. Utilizing
               Google and motivated by my desire to create my own games, I taught
-              myself how to develop flash games (and how to make money with
-              those games). I have been programming ever since.
+              myself how to develop flash games (and how to monetize those
+              games). I have been programming ever since.
             </p>
           </div>
         </div>
@@ -56,7 +57,7 @@ function Home() {
             <h3>IT & Computer Repair</h3>
             <p>
               Because of my interest in computers and my curiousity, I have
-              always found myself fixing others computers. As a way to earn
+              always found myself fixing others' computers. As a way to earn
               money, I decided to utilize this talent by being a freelance IT
               tech. Eventually, I opened my own computer repair shop,
               "Generation Tech". A year later, someone purchased my brand/shop
@@ -83,11 +84,14 @@ function Home() {
               In 2017, I got my hands on my first virtual reality headset. I was
               blown away! That's when I knew that I had to create a virtual
               reality game. A month and a half later, I released my first VR
-              game "Battle Dome", which was a big hit. This is when I realized
-              that it was destiny to be a programmer, not an IT guy. Since then,
-              I have released 2 more (with more on the way). Being a lone indie
-              dev has made me self sufficient and well rounded, having to do
-              almost every aspect of game production myself.
+              game "Battle Dome" which was a big hit. This is when I realized
+              that it was destiny to be a programmer, not an IT tech. Since
+              then, I have released 2 more games (with more on the way). Being a
+              lone indie dev has made me self sufficient and well rounded,
+              having to do almost every aspect of game production myself.
+              Although I enjoy making games and have learned a lot, I miss
+              working as a team and having coworkers to share the development
+              experience with.
             </p>
           </div>
         </div>

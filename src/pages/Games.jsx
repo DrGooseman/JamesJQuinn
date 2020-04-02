@@ -84,7 +84,8 @@ function Games() {
             My first attempt at a full length campaign. Inhumanus was a lot of
             work and took a lot of time, and I learned a lot in the process. At
             the time of release, Inhumanus was one of the VR games with the
-            longest play times.
+            longest play times and largest free-movement worlds (most VR games
+            at the time were stationary or rail shooters).
           </p>
           <p>
             A lot of work was also put into bug testing and ensuring a seamless
@@ -142,8 +143,9 @@ function Games() {
             deliberately crafting a higher quality and more focused experience.
             No short cuts, no cutting corners. All graphical assets, effects,
             and levels had to have a cohesive aesthetic. Because of this, I had
-            to create and edit assets myself at times in order to have
-            everything that I needed.
+            to create and edit assets myself often in order to have everything
+            that I needed. A lot of attention was spent adding good looking and
+            satisfying visual and audio effects to all player actions.
           </p>
         </div>
       </div>

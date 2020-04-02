@@ -174,8 +174,8 @@ function Resume() {
               Node.js, MongoDB (MERN stack), SQL, and ActionScript.
             </li>
             <li>
-              Experienced with GIMP, Audacity, Github, and Microsoft Office /
-              Google Docs.
+              Experienced with GIMP, Audacity, Github, Heroku, Firebase, and
+              Microsoft Office / Google Docs.
             </li>
             <li>
               Previous member of Shippensburg University Competitive Programming
