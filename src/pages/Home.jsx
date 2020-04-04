@@ -276,6 +276,15 @@ function Home() {
             <li>Java</li>
           </ul>
         </div>
+        <div className="my-interests-lists-note ">
+          <h6>
+            Don't see your technology here? Let me know and I will dive into it
+            for you. I would love the chance to learn something new and to prove
+            myself!
+          </h6>
+        </div>
+        <br></br>
+        <br></br>
         <h3>What I Want to Learn Next</h3>
         <div className="my-interests-lists ">
           <ul>
@@ -287,6 +296,8 @@ function Home() {
             <li>Python</li>
           </ul>
         </div>
+        <br></br>
+        <br></br>
         <h3>Other Things I Want to Learn</h3>
         <div className="my-interests-lists ">
           <ul>

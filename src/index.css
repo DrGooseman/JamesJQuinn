@@ -199,6 +199,10 @@ i {
   margin: 1.3em;
 }
 
+.my-interests-lists-note {
+  max-width: 23rem;
+}
+
 .carousel-caption h3,
 .carousel-caption p {
   background: rgba(0, 0, 0, 0.4);
