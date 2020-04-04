@@ -259,6 +259,52 @@ function Home() {
           </Carousel.Item>
         </Carousel>
       </div>
+      <div className="title">
+        <h1>Learning</h1>
+      </div>
+      <div className="my-interests">
+        <h3>What I Want to Master</h3>
+        <div className="my-interests-lists ">
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+          </ul>
+          <ul>
+            <li>React</li>
+            <li>MySQL</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <h3>What I Want to Learn Next</h3>
+        <div className="my-interests-lists ">
+          <ul>
+            <li>Angular/Vue</li>
+            <li>PostgreSQL</li>
+          </ul>
+          <ul>
+            <li>More Spring Framework</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <h3>Other Things I Want to Learn</h3>
+        <div className="my-interests-lists ">
+          <ul>
+            <li>Fluent German</li>
+            <li>Swedish</li>
+            <li>Japanese</li>
+            <li>Dancing</li>
+            <li>Violin</li>
+          </ul>
+          <ul>
+            <li>Fluent Russian</li>
+            <li>Spanish</li>
+            <li>Italian</li>
+            <li>Brewing beer</li>
+            <li>Bagpipes</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
