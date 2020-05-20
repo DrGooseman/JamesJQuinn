@@ -23,9 +23,9 @@ function Home() {
             <h2>My goal</h2>
             <p>
               To make a difference in the world, to further develop myself in
-              every way possible, and to find an amazing company/team to share
-              this journey with. A company I would be proud to work with and to
-              call my family.
+              every way possible, and to find an amazing company/team with whom
+              to share this journey. A company I would be proud to work with and
+              to call my family.
             </p>
           </div>
           <img src="/images/profpic2.jpg" alt="profpic2"></img>
@@ -86,12 +86,12 @@ function Home() {
               reality game. A month and a half later, I released my first VR
               game "Battle Dome" which was a big hit. This is when I realized
               that it was destiny to be a programmer, not an IT tech. Since
-              then, I have released 2 more games (with more on the way). Being a
-              lone indie dev has made me self sufficient and well rounded,
-              having to do almost every aspect of game production myself.
-              Although I enjoy making games and have learned a lot, I miss
-              working as a team and having coworkers to share the development
-              experience with.
+              then, I have released 2 additional games (with more on the way).
+              Being a lone indie dev has made me self sufficient and well
+              rounded, having to do almost every aspect of game production
+              myself. Although I enjoy making games and have learned a lot, I
+              miss working as a team and having coworkers with whom to share the
+              development experience.
             </p>
           </div>
         </div>

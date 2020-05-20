@@ -174,6 +174,66 @@ function WebApps() {
           </p>
         </div>
       </div>
+      <Jumbotron className="jumbowa4">
+        <h1>
+          <span>Battle Blocks</span>
+        </h1>
+        <p>
+          <span>
+            Outwit your friends in this simplistic turn-based strategy game.
+          </span>
+        </p>
+      </Jumbotron>
+      <div className="game-info">
+        <Card>
+          <Card.Img variant="top" src="/images/webapps/blocks.png" />
+          <Card.Body>
+            <Card.Title>Notable Info</Card.Title>
+            <Card.Text>
+              <ul>
+                <li>MERN stack.</li>
+                <li>Socket.io</li>
+                <li>Hosted on Firebase + Heroku</li>
+                <li>Images hosted on AWS S3</li>
+              </ul>
+            </Card.Text>
+            <a
+              href=""
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary" disabled>
+                Site (coming soon)
+              </Button>
+            </a>
+            <a
+              href="https://github.com/DrGooseman/MERN-BattleBlocks"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">GitHub</Button>
+            </a>
+          </Card.Body>
+        </Card>
+        <div className="game-info-text">
+          <p>
+            Battle Blocks is a recreation of an old Android app I created (but
+            never published) years ago. After learning about Socket.io, I knew
+            that I needed to create a game with it, and I figured my old Battle
+            Blocks was the perfect choice.
+          </p>
+          <p>
+            I used the CSS grid system to organize the game board. I plan on
+            adding animation to the game (for example, when your blocks attack
+            another block) and making the game more visually appealing in
+            general. I already added support for animation into the backend data
+            model (previous game state is stored so it can be sent to the client
+            and the previous move can be recreated when a game is reopened).
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
