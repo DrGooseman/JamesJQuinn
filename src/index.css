@@ -49,6 +49,18 @@ code {
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 0 4px;
+  overflow-y: scroll;
+  height: 100vh;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.App-header::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.test {
+  overflow-y: scroll;
+  height: 100vh;
 }
 .App-header img {
   width: 70%;
@@ -360,6 +372,45 @@ i {
   font-size: 1rem;
   line-height: 1.7rem;
 }
+
+.my-old-flash-games {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.my-old-flash-games > p {
+  margin: 0 100px 24px;
+}
+
+.my-old-flash-games .h5 {
+  margin: 0 0 20px;
+}
+
+.my-old-flash-games .card {
+  /* flex-basis: 19rem;
+  flex-shrink: 0; */
+  width: 280px;
+  margin: 0 1rem 1rem;
+}
+.card-img-container {
+  height: 278px;
+  background-color: rgb(150, 150, 150);
+}
+.card-img-container .card-img-top {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card {
+  background-color: rgb(230, 230, 230);
+}
+
+.card {
+  background-color: rgb(230, 230, 230);
+}
+
 /* .game-info p {
   margin-left: 2rem;
 } */

@@ -9,18 +9,17 @@ function SideBar() {
   return (
     <div className="App-header-fixed-parent">
       <header className="App-header">
+        {/* <div className="test"> */}
         <img src={"/images/profpic.jpg"} alt="profile pic" />
         <h3>James Quinn</h3>
         <p>
           <i className="far fa-envelope"></i> JamesJQuinn12@gmail.com
         </p>
-
         <h4>American programmer living in Moscow.</h4>
         <h4>Aspiring full-stack developer.</h4>
         <h4>Experienced in game dev / virtual reality.</h4>
         <h7></h7>
         <h7></h7>
-
         <Navbar bg="dark" variant="dark">
           <Nav className="mr-auto flex-column">
             <Nav.Link as={NavLink} exact to={"/"}>
@@ -73,10 +72,10 @@ function SideBar() {
         >
           <i className="fab fa-hackerrank"></i>
         </a>
-
         {/* <img className="icon" src="/images/hh.ico" alt="hh" /> */}
         <h6></h6>
         <h6></h6>
+
         <h4>
           Want to see this smiling face working at your company?
           <i className="fas fa-smile"></i>
@@ -88,6 +87,7 @@ function SideBar() {
           Want to just meet for a pint?<i className="fas fa-beer"></i>
         </h4>
         <h4>I'm waiting to hear from you!</h4>
+        {/* </div> */}
       </header>
     </div>
   );

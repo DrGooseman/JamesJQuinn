@@ -222,6 +222,139 @@ function Games() {
           </p>
         </div>
       </div>
+      <div className="title">
+        <h1>My Old Flash Games</h1>
+      </div>
+      <div className="my-old-flash-games">
+        <p>
+          Even though I made these flash games many many years ago and they are
+          not the best quality, I figured I would share them here anyway. They
+          represent the beginning of my journey into the world of programming.
+          <br /> <br /> I had no idea about the fundamentals of programming or
+          the best practices, everything was created through trial and error, as
+          well as googling. All of the published games were created with Adobe
+          Flash.
+          <br /> <br /> These are just the published ones, I probably had about
+          100 more that I never published. They are listed in the order that I
+          made them. The last one (Fight the Futon) was a collaboration with my
+          artist friend.
+        </p>
+        <Card>
+          <Card.Img variant="top" src="/images/games/dodge.png" />
+          <Card.Body>
+            <Card.Title>Dodge!</Card.Title>
+
+            <a
+              href="https://www.kongregate.com/games/JamesQuinn/dodge"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Play</Button>
+            </a>
+          </Card.Body>
+        </Card>
+        <Card>
+          <Card.Img variant="top" src="/images/games/barricades.png" />
+          <Card.Body>
+            <Card.Title>Barricades!</Card.Title>
+
+            <a
+              href="https://www.kongregate.com/games/JamesQuinn/barricade"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Play</Button>
+            </a>
+          </Card.Body>
+        </Card>
+        <Card>
+          <div className="card-img-container">
+            <Card.Img variant="top" src="/images/games/airplane.png" />
+          </div>
+          <Card.Body>
+            <Card.Title>Airplane!</Card.Title>
+
+            <a
+              href="https://www.kongregate.com/games/JamesQuinn/airplane"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Play</Button>
+            </a>
+          </Card.Body>
+        </Card>
+        <Card>
+          <div className="card-img-container">
+            <Card.Img variant="top" src="/images/games/barricades2.png" />
+          </div>
+          <Card.Body>
+            <Card.Title>Barricades! 2</Card.Title>
+
+            <a
+              href="https://www.kongregate.com/games/JamesQuinn/barricades-2"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Play</Button>
+            </a>
+          </Card.Body>
+        </Card>
+        <Card>
+          <div className="card-img-container">
+            <Card.Img variant="top" src="/images/games/deluxe.png" />
+          </div>
+          <Card.Body>
+            <Card.Title>Deluxe Game Collection</Card.Title>
+
+            <a
+              href="https://www.kongregate.com/games/JamesQuinn/deluxe-game-collection"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Play</Button>
+            </a>
+          </Card.Body>
+        </Card>
+        <Card>
+          <div className="card-img-container">
+            <Card.Img variant="top" src="/images/games/maverick.png" />
+          </div>
+          <Card.Body>
+            <Card.Title>Maverick Arcade</Card.Title>
+
+            <a
+              href="https://www.kongregate.com/games/JamesQuinn/maverick-arcade"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Play</Button>
+            </a>
+          </Card.Body>
+        </Card>
+        <Card>
+          <div className="card-img-container">
+            <Card.Img variant="top" src="/images/games/futon.png" />
+          </div>
+          <Card.Body>
+            <Card.Title>Fight the Futon</Card.Title>
+
+            <a
+              href="https://www.kongregate.com/games/JamesQuinn/fight-the-futon"
+              className="side-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary">Play</Button>
+            </a>
+          </Card.Body>
+        </Card>
+      </div>
     </div>
   );
 }
