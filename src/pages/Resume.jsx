@@ -54,8 +54,8 @@ function Resume() {
           <h5>Present</h5>
         </div>
         <div>
-          <h4>Bad Bird Studios (Self Employed)</h4>
-          <p>Virtual Reality Game Developer</p>
+          <h4>Virtual Reality Game Developer</h4>
+          <p>Bad Bird Studios (Self Employed)</p>
           <ul>
             <li>
               Design, program, and market virtual reality computer games
@@ -75,12 +75,30 @@ function Resume() {
       </div>
       <div className="resume-row">
         <div className="resume-date">
+          <h5>July 2020 -</h5>
+          <h5>December 2020</h5>
+        </div>
+        <div>
+          <h4>Full Stack Engineer</h4>
+          <p>Jimdo</p>
+          <ul>
+            <li>
+              Develop/maintain backend of CMS and occasionally add small
+              frontend features.
+            </li>
+            <li>Backend (80%) : Python/Django, PostgreSQL, some Node.js.</li>
+            <li>Frontend (20%) : React, REST and GraphQL.</li>
+          </ul>
+        </div>
+      </div>
+      <div className="resume-row">
+        <div className="resume-date">
           <h5>September 2015 -</h5>
           <h5>July 2016</h5>
         </div>
         <div>
-          <h4>Northstar Travel Group</h4>
-          <p>Help Desk Associate</p>
+          <h4>Help Desk Associate</h4>
+          <p>Northstar Travel Group</p>
           <ul>
             <li>
               Setup, maintain, diagnose, and repair computers and user accounts.
@@ -89,7 +107,7 @@ function Resume() {
             <li>Provide computer and software training.</li>
             <li>
               Reverse engineered the old ticketing system to add new
-              functionality.
+              functionality (ASP).
             </li>
           </ul>
         </div>
@@ -100,8 +118,8 @@ function Resume() {
           <h5>January 2015</h5>
         </div>
         <div>
-          <h4>Generation Tech LLC (Self Employed)</h4>
-          <p>Owner/Operator</p>
+          <h4>Owner/Operator</h4>
+          <p>Generation Tech LLC (Self Employed)</p>
           <ul>
             <li>
               Manage all aspects of running a computer repair business including
@@ -126,8 +144,8 @@ function Resume() {
           <h5>January 2014</h5>
         </div>
         <div>
-          <h4>New Hope Dentists LLC</h4>
-          <p>On Call IT Support</p>
+          <h4>On Call IT Support</h4>
+          <p>New Hope Dentists LLC</p>
           <ul>
             <li>Offer technical support both in person and over the phone.</li>
             <li>Resolve computer hardware and software issues.</li>
@@ -143,8 +161,8 @@ function Resume() {
           <h5>May 2012</h5>
         </div>
         <div>
-          <h4>Shippensburg University Residence Life</h4>
-          <p>Resident Assistant - Harley Hall</p>
+          <h4>Resident Assistant - Harley Hall</h4>
+          <p>Shippensburg University Residence Life</p>
           <ul>
             <li>
               Responsible for social, academic, and emotional growth of my
@@ -170,12 +188,12 @@ function Resume() {
               android, flash).
             </li>
             <li>
-              Experienced with C# (Unity3D), Java, HTML, CSS, Javascript, React,
-              Node.js, MongoDB (MERN stack), SQL, and ActionScript.
+              Experienced with C# (Unity3D), Java, HTML/CSS, Javascript, React,
+              Node.js, Python, Django, MongoDB, PostgreSQL, and ActionScript.
             </li>
             <li>
-              Experienced with GIMP, Audacity, Github, Heroku, Firebase, and
-              Microsoft Office / Google Docs.
+              Experienced with GIMP, Audacity, Github, Jira, Heroku, Firebase,
+              and Microsoft Office / Google Docs.
             </li>
             <li>
               Previous member of Shippensburg University Competitive Programming

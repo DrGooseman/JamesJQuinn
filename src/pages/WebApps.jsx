@@ -33,7 +33,7 @@ function WebApps() {
               </ul>
             </Card.Text>
             <a
-              href="https://topwordsapp.com/"
+              href="https://topwords-bbs.web.app/"
               className="side-link"
               target="_blank"
               rel="noopener noreferrer"

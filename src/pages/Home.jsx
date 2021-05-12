@@ -269,11 +269,13 @@ function Home() {
             <li>HTML/CSS</li>
             <li>Node.js</li>
             <li>MongoDB</li>
+            <li>Python</li>
           </ul>
           <ul>
             <li>React</li>
-            <li>MySQL</li>
+            <li>PostgreSQL</li>
             <li>Java</li>
+            <li>Django</li>
           </ul>
         </div>
         <div className="my-interests-lists-note ">
@@ -288,12 +290,12 @@ function Home() {
         <h3>What I Want to Learn Next</h3>
         <div className="my-interests-lists ">
           <ul>
-            <li>Angular/Vue</li>
-            <li>PostgreSQL</li>
+            <li>Angular</li>
+            <li>Vue</li>
           </ul>
           <ul>
             <li>More Spring Framework</li>
-            <li>Python</li>
+            <li>ASP.NET</li>
           </ul>
         </div>
         <br></br>
